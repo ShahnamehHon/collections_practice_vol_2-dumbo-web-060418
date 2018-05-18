@@ -16,7 +16,7 @@ end
 
 def first_wa(array)
   array.each do |word|
-    if word.to_s.include("wa")
+    if word.to_s.include?("wa")
       return word
     end
   end
