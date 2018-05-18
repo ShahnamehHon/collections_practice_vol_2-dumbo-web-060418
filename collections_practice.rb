@@ -4,3 +4,7 @@ def begins_with_r(array)
   end
 end
 
+def contain_a(array)
+  array.any? do |tool|
+    tool[0] == 'a'
+
