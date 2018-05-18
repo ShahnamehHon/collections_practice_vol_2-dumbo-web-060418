@@ -6,4 +6,6 @@ end
 
 def contain_a(array)
   arr = []
-  array.each {|element| 
+  array.each do |element|
+    if element.include? ('a')
+      arr << element
