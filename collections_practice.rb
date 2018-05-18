@@ -5,7 +5,7 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.collect do |tool|
+  array.all? do |tool|
     tool[0] == 'a'
   end
 end
