@@ -15,10 +15,8 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.each do |word|
-    if word.to_s.include?("wa")
-      return word
-    end
+  array.find do |word|
+    word[0..1] == "wa"
   end
 end
 
