@@ -7,7 +7,7 @@ end
 def contain_a(array)
   arr = []
   array.each do |element|
-    if element.include?('a')
+    if element.include?("a")
       arr << element
     end
   end
@@ -15,4 +15,6 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  
+  array.each do |word|
+    if word.include?("wa")
+      
