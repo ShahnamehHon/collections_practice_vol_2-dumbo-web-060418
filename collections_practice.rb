@@ -28,7 +28,7 @@ def remove_non_strings(array)
     if (element == "#{element}")
       arr << element
     else
-      
+      array.delete(element)
     end
   end
   arr
