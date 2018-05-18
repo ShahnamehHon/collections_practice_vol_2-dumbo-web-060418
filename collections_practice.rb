@@ -6,7 +6,7 @@ end
 
 def contain_a(array)
   array.all? do |tool|
-    tool[0] == 'a'
+    tool[0] == "a"
   end
 end
 
