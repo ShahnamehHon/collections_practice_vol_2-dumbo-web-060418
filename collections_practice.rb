@@ -27,6 +27,8 @@ def remove_non_strings(array)
   array.each do |element|
     if (element == "#{element}")
       arr << element
+    else
+      
     end
   end
   arr
