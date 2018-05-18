@@ -31,7 +31,9 @@ def merge_data(keys, data)
   arr
 end
 
-  
+def count_elements(array)
+  array.group_by(&:itself).map{|k, v| k.merge(count: v.length)}
+end
   
 
 
