@@ -14,4 +14,5 @@ def contain_a(array)
   arr
 end
 
-
+def first_wa(array)
+  
