@@ -21,15 +21,7 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  arr = []
-  array.each do |element|
-    if (element == "#{element}")
-      arr << element
-    else
-      array.delete(element)
-    end
-  end
-  arr
+  array.delete_if { |x| !(x.is_a? String) }
 end
 
 def merge_data(keys, data)
