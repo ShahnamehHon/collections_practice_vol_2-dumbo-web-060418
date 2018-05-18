@@ -6,4 +6,4 @@ end
 
 def contain_a(array)
   arr = []
-  
+  array.each {|element| 
