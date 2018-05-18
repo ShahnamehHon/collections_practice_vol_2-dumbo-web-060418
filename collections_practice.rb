@@ -25,6 +25,11 @@ def remove_non_strings(array)
 end
 
 def merge_data(keys, data)
+  arr = data[0].values.map.with_index do |v, i|
+    keys[i].merge(v)
+    end
+  arr
+end
   
   
 
